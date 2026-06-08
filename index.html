@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Soja Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🌱 Agrinho 2026</h1>
+                <p class="subtitle">Plantações de Soja Sustentáveis</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#ideias">Ideias</a></li>
+                <li><a href="#estatisticas">Estatísticas</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Revolucionando a Agricultura de Soja</h1>
+            <p>Soluções sustentáveis para um futuro melhor</p>
+            <button class="cta-button" onclick="document.getElementById('ideias').scrollIntoView({behavior: 'smooth'})">
+                Explorar Ideias
+            </button>
+        </div>
+        <div class="hero-animation">
+            <div class="animated-leaf"></div>
+            <div class="animated-leaf"></div>
+            <div class="animated-leaf"></div>
+        </div>
+    </section>
+
+    <!-- Ideias Geniais Section -->
+    <section id="ideias" class="ideias-section">
+        <div class="container">
+            <h2 class="section-title">💡 Ideias Geniais para Melhorias Sustentáveis</h2>
+            
+            <div class="ideias-grid">
+                <!-- Ideia 1 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">🌾</div>
+                    <h3>Rotação de Culturas</h3>
+                    <p class="ideia-description">Alternância entre culturas diferentes para restaurar nutrientes do solo naturalmente, reduzindo uso de fertilizantes químicos.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">+40% Fertilidade</span>
+                        <span class="stat-badge">-30% Custos</span>
+                    </div>
+                </div>
+
+                <!-- Ideia 2 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">💧</div>
+                    <h3>Irrigação Inteligente</h3>
+                    <p class="ideia-description">Sistemas de irrigação por gotejamento com sensores IoT para economizar água e garantir hidratação ideal das plantas.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">-50% Água</span>
+                        <span class="stat-badge">+35% Produção</span>
+                    </div>
+                </div>
+
+                <!-- Ideia 3 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">🤖</div>
+                    <h3>IA e Agricultura de Precisão</h3>
+                    <p class="ideia-description">Uso de drones e inteligência artificial para monitorar plantações, detectar pragas e otimizar o uso de recursos.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">+45% Eficiência</span>
+                        <span class="stat-badge">-25% Defensivos</span>
+                    </div>
+                </div>
+
+                <!-- Ideia 4 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">🌱</div>
+                    <h3>Agricultura Regenerativa</h3>
+                    <p class="ideia-description">Práticas que melhoram a saúde do solo, aumentam biodiversidade e sequestram carbono da atmosfera.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">+60% Biodiversidade</span>
+                        <span class="stat-badge">-20% Emissões</span>
+                    </div>
+                </div>
+
+                <!-- Ideia 5 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">☀️</div>
+                    <h3>Energia Renovável</h3>
+                    <p class="ideia-description">Painéis solares e energia eólica para alimentar máquinas agrícolas e sistemas de irrigação sustentavelmente.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">-80% Emissões</span>
+                        <span class="stat-badge">-60% Custos</span>
+                    </div>
+                </div>
+
+                <!-- Ideia 6 -->
+                <div class="ideia-card">
+                    <div class="ideia-icon">🌍</div>
+                    <h3>Biodiversidade na Propriedade</h3>
+                    <p class="ideia-description">Manutenção de áreas verdes, matas ciliares e polinizadores nativos para melhorar ecossistema agrícola.</p>
+                    <div class="stats-mini">
+                        <span class="stat-badge">+50% Polinização</span>
+                        <span class="stat-badge">-40% Pragas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas Section -->
+    <section id="estatisticas" class="estatisticas-section">
+        <div class="container">
+            <h2 class="section-title">📊 Estatísticas Globais</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat1">0</div>
+                    <p class="stat-label">Milhões de Hectares de Soja</p>
+                    <p class="stat-comment">Área total plantada em 2024</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number" id="stat2">0</div>
+                    <p class="stat-label">% da Produção Global</p>
+                    <p class="stat-comment">Brasil representa na produção</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number" id="stat3">0</div>
+                    <p class="stat-label">Bilhões de Dólares</p>
+                    <p class="stat-comment">Valor da indústria brasileira</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number" id="stat4">0</div>
+                    <p class="stat-label">% Potencial de Aumento</p>
+                    <p class="stat-comment">Com práticas sustentáveis</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3 class="chart-title">Impacto das Práticas Sustentáveis</h3>
+                <div class="chart">
+                    <div class="chart-bar">
+                        <div class="bar-label">Rendimento</div>
+                        <div class="bar-fill" style="width: 85%">
+                            <span class="bar-value">+35%</span>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Economia de Água</div>
+                        <div class="bar-fill" style="width: 72%">
+                            <span class="bar-value">-50%</span>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Redução de Químicos</div>
+                        <div class="bar-fill" style="width: 68%">
+                            <span class="bar-value">-45%</span>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Sequestro de Carbono</div>
+                        <div class="bar-fill" style="width: 78%">
+                            <span class="bar-value">+55%</span>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Biodiversidade</div>
+                        <div class="bar-fill" style="width: 82%">
+                            <span class="bar-value">+60%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Section -->
+    <section id="impacto" class="impacto-section">
+        <div class="container">
+            <h2 class="section-title">🌍 Impacto Global</h2>
+            
+            <div class="impacto-content">
+                <div class="impacto-text">
+                    <h3>Por que a Sustentabilidade é Urgente?</h3>
+                    <ul class="impacto-list">
+                        <li>
+                            <span class="impacto-number">1</span>
+                            <div>
+                                <strong>Preservação do Solo</strong>
+                                <p>37% das terras de cultivo global estão degradadas. Práticas sustentáveis restauram a saúde.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="impacto-number">2</span>
+                            <div>
+                                <strong>Segurança Hídrica</strong>
+                                <p>70% da água doce global é usada em agricultura. Eficiência é essencial.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="impacto-number">3</span>
+                            <div>
+                                <strong>Emissões de Carbono</strong>
+                                <p>Agricultura sustentável reduz 25% das emissões e sequestra CO₂.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="impacto-number">4</span>
+                            <div>
+                                <strong>Biodiversidade</strong>
+                                <p>Agricultura regenerativa recupera espécies nativas e ecossistemas.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="impacto-benefits">
+                    <h3>Benefícios para o Produtor</h3>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">💰</div>
+                        <div class="benefit-text">
+                            <h4>Maior Rentabilidade</h4>
+                            <p>Redução de custos com insumos e maior produtividade</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📈</div>
+                        <div class="benefit-text">
+                            <h4>Produção Estável</h4>
+                            <p>Solos saudáveis garantem colheitas consistentes</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🏆</div>
+                        <div class="benefit-text">
+                            <h4>Mercado Premium</h4>
+                            <p>Maior valor para produtos certificados sustentáveis</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🔒</div>
+                        <div class="benefit-text">
+                            <h4>Resiliência</h4>
+                            <p>Melhor adaptação a mudanças climáticas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Junte-se à Revolução Sustentável</h2>
+            <p>Transforme sua propriedade em um modelo de sustentabilidade agrícola</p>
+            <button class="cta-button-large">Comece Hoje</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Agrinho - Projeto de Sustentabilidade Agrícola</p>
+            <p>Desenvolvido com 🌱 para um futuro mais verde</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
